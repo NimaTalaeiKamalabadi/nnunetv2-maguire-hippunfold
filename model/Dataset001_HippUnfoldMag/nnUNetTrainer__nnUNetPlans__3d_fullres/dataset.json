@@ -1,0 +1,775 @@
+{
+    "name": "HippUnfoldMag",
+    "description": "Preprocessed hippocampal images (T2w coronal oblique) from HippUnfold",
+    "tensorImageSize": "3D",
+    "reference": "",
+    "licence": "",
+    "release": "1.0",
+    "modality": {
+        "0": "T2"
+    },
+    "labels": {
+    "background": 0,
+    "hippocampus gray matter": 1,
+    "hippocampus SRLM": 2,
+    "hippocampus MTLC": 3,
+    "hippocampus Pial": 4,
+    "hippocampus HATA": 5,
+    "hippocampus Indusium": 6,
+    "hippocampus Cyst": 7,
+    "hippocampus Dentate": 8
+    },
+    "channel_names": {
+        "0": "T2"
+    },
+    "file_ending": ".nii.gz",
+    "numTraining": 186,
+    "numTest": 0,
+    "training": [
+        {
+            "image": "./imagesTr/sub-104_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-104_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-104_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-104_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-106_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-106_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-106_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-106_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-107_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-107_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-107_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-107_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-112_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-112_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-112_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-112_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-115_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-115_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-115_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-115_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-118_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-118_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-118_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-118_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-123_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-123_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-123_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-123_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-125_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-125_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-125_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-125_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-126_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-126_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-126_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-126_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-127_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-127_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-127_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-127_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-12_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-12_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-12_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-12_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-130_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-130_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-130_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-130_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-132_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-132_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-132_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-132_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-134_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-134_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-134_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-134_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-135_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-135_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-135_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-135_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-136_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-136_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-136_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-136_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-138_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-138_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-138_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-138_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-141_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-141_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-141_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-141_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-144_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-144_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-144_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-144_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-145_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-145_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-145_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-145_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-146_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-146_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-146_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-146_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-149_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-149_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-149_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-149_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-14_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-14_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-14_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-14_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-153_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-153_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-153_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-153_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-15_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-15_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-15_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-15_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-161_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-161_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-161_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-161_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-162_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-162_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-162_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-162_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-168_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-168_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-168_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-168_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-169_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-169_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-169_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-169_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-16_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-16_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-16_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-16_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-170_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-170_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-170_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-170_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-171_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-171_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-171_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-171_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-173_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-173_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-173_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-173_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-174_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-174_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-174_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-174_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-176_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-176_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-176_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-176_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-180_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-180_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-180_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-180_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-181_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-181_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-181_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-181_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-182_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-182_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-182_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-182_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-187_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-187_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-187_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-187_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-189_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-189_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-189_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-189_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-191_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-191_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-191_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-191_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-192_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-192_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-192_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-192_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-195_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-195_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-195_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-195_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-1_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-1_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-1_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-1_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-201_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-201_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-201_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-201_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-202_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-202_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-202_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-202_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-203_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-203_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-203_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-203_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-204_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-204_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-204_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-204_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-210_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-210_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-210_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-210_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-211_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-211_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-211_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-211_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-212_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-212_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-212_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-212_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-213_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-213_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-213_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-213_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-214_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-214_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-214_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-214_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-216_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-216_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-216_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-216_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-21_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-21_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-21_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-21_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-23_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-23_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-23_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-23_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-28_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-28_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-28_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-28_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-29_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-29_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-29_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-29_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-2_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-2_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-2_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-2_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-30_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-30_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-30_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-30_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-32_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-32_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-32_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-32_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-33_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-33_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-33_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-33_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-36_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-36_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-36_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-36_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-37_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-37_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-37_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-37_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-3_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-3_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-3_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-3_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-40_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-40_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-40_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-40_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-49_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-49_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-49_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-49_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-52_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-52_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-52_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-52_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-54_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-54_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-54_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-54_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-56_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-56_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-56_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-56_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-59_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-59_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-59_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-59_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-60_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-60_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-60_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-60_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-61_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-61_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-61_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-61_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-64_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-64_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-64_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-64_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-67_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-67_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-67_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-67_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-69_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-69_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-69_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-69_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-70_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-70_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-70_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-70_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-72_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-72_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-72_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-72_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-73_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-73_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-73_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-73_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-75_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-75_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-75_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-75_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-77_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-77_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-77_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-77_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-79_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-79_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-79_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-79_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-80_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-80_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-80_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-80_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-82_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-82_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-82_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-82_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-87_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-87_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-87_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-87_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-88_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-88_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-88_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-88_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-8_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-8_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-8_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-8_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-90_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-90_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-90_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-90_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-91_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-91_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-91_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-91_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-92_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-92_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-92_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-92_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-95_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-95_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-95_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-95_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-97_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-97_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-97_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-97_hemi-R_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-99_hemi-Lflip_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-99_hemi-Lflip_preproc.nii.gz"
+        },
+        {
+            "image": "./imagesTr/sub-99_hemi-R_preproc_0000.nii.gz",
+            "label": "./labelsTr/sub-99_hemi-R_preproc.nii.gz"
+        }
+    ],
+    "test": []
+}
